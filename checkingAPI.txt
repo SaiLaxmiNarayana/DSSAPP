@@ -1,0 +1,7 @@
+<?php
+
+require_once 'configure.php';
+ 
+$expectedApiKey = getenv('API_KEY');
+echo $expectedApiKey;
+?>
